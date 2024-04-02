@@ -78,7 +78,9 @@ header .mobile a {
 header .desktop {
     display: none;
 }
-
+header .mobile a:hover {
+    color: var(--vermillion);
+}
 
 main {
     max-width: 1110px;
@@ -114,6 +116,10 @@ main {
     font-size: 0.875rem;
     letter-spacing: 0.275rem;
     line-height: 1.5rem;
+}
+.primeira-seção button:hover {
+    background-color: var(--dark-blue);
+    cursor: pointer;
 }
 
 .margin-border-padding {
@@ -170,6 +176,9 @@ main {
 }
 .terceira-seção a {
     text-decoration: none;
+}
+.terceira-seção h2:hover {
+    color: var(--vermillion);
 }
 .terceira-seção p {
     font-size: 0.9375rem;
